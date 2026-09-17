@@ -1,0 +1,26 @@
+{
+	"name": "app",
+	"version": "1.0.0",
+	"description": "A todo list monorepo application",
+	"main": "index.js",
+	"scripts": {
+		"dev:web": "pnpm --filter web dev",
+		"dev:api": "pnpm --filter api dev",
+		"build:web": "pnpm --filter web build",
+		"build:api": "pnpm --filter api build",
+		"lint:web": "pnpm --filter web lint",
+		"lint:api": "pnpm --filter api lint"
+	},
+	"keywords": [],
+	"author": "Patrick",
+	"license": "ISC",
+	"devEngines": {
+		"packageManager": {
+			"name": "pnpm",
+			"version": "12.4.2",
+			"onFail": "download"
+		}
+	},
+	"packageManager": "pnpm@12.4.2",
+	"type": "module"
+}
