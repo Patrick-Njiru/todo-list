@@ -1,5 +1,5 @@
 {
-	"name": "app",
+	"name": "todo list",
 	"version": "1.0.0",
 	"description": "A todo list monorepo application",
 	"main": "index.js",
@@ -9,6 +9,7 @@
 		"build:web": "pnpm --filter web build",
 		"build:api": "pnpm --filter api build",
 		"lint:web": "pnpm --filter web lint",
+		"lint:web:fix": "pnpm --filter web lint:fix",
 		"lint:api": "pnpm --filter api lint"
 	},
 	"keywords": [],
