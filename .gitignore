@@ -42,3 +42,8 @@ dist-ssr
 
 # TypeScript cache
 *.tsbuildinfo
+
+
+# Rest Client API testing files
+*.http
+*.rest
